@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+
+{% block body %}
+<script type="text/javascript">
+   {% include "js/serverOverview.js" %}
+</script>
+<!-- Page Content -->
+<div class="container">
+    <table class="table">
+        <thead>
+        <tr  id="header">
+            <th scope="col">NodeNames</th>
+        </tr>
+        </thead>
+        <tbody id="tbody">
+
+        </tbody>
+    </table>
+
+</div>
+<!-- /.container -->
+{% endblock %}
